@@ -1,4 +1,5 @@
 import { d } from "../utils";
+import { fixMarkdownLists } from "./fixMarkdownLists";
 
 const prefix = "\0";
 
@@ -83,6 +84,6 @@ export const markdownIndent = (message: string): string => {
     }
     return lines;
   });
-  const final = next.join("\n\n");
+  const final = fixMarkdownLists(next.join("\n\n"));
   return final;
 };
