@@ -3,7 +3,7 @@
   "displayName": "Pretty TypeScript Errors",
   "publisher": "hexh <250786313@qq.com>",
   "description": "A fork of https://github.com/yoavbls/pretty-ts-errors",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "homepage": "https://github.com/hexh250786313/pretty-ts-errors",
   "main": "lib",
   "bin": {
