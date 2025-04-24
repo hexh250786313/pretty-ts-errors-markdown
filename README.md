@@ -30,7 +30,7 @@ pretty-ts-errors-markdown -i "{\"range\":{\"start\":{\"line\":6,\"character\":6}
 
 ```bash
 git clone https://github.com/hexh250786313/pretty-ts-errors-markdown && cd pretty-ts-errors-markdown
-cat ./examples/input.txt | pretty-ts-errors-markdown > ./examples/output.md
+cat ./examples/input1.txt | pretty-ts-errors-markdown > ./examples/output.md
 ```
 
 ## Usage (Programmatically)
